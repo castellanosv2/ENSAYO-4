@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[a4paper, top=2.4cm, bottom=2.4cm, left=2.4cm, right=2.4cm]{geometry}
+\usepackage{mathptmx}
+
+\begin{document}
+\begin{center}
+    {\title\uppercase\bfseries{ENSAYO }}\\
+    {\itshape B.I.Castellanos Valle} \\
+    {\itshape 7690-21-10973 universidad Mariano Galvez} \\
+    {\itshape Seminario de Tecnológias de Información} \\
+    {\itshape bcastellanosv2@miumg.edu.gt}\\
+\end{center}
+
+
+\setlength{\parindent}{0pt}
+
+\noindent\textbf{Resumen}\\
+https://github.com/castellanosv2/FORO-ACADEMICO-3.git\\
+
+\textbf{Palabras Clave}\\
+Orquestación de servidores, Kubernetes, Microservicios, OAuth 2.0, 12-Factor Application, Seguridad, Servicios en la Nube
+
+
+\vspace{1em}
+\noindent\textbf{Desarrollo del tema}\\
+1. Orquestación de Servidores:\\
+Cuando hablamos de orquestación nos referimos básicamente a automatizar tareas que antes se hacían de forma manual en los servidores: instalar aplicaciones, configurar parámetros o desplegar actualizaciones. Con herramientas como Ansible o Puppet, es posible aplicar cambios a decenas de servidores en minutos y mantener todo bajo un mismo control. Esto no solo ahorra tiempo, también reduce errores humanos que en la práctica suelen ser la causa de muchas caídas de sistemas.\\
+
+2. Kubernetes:\\
+Kubernetes, conocido como K8s, es la plataforma más utilizada para administrar aplicaciones en contenedores. Su arquitectura basada en pods, servicios y controladores le permite ejecutar aplicaciones distribuidas de forma automática, escalable y resiliente.\\
+hoy por hoy la herramienta más utilizada para manejar aplicaciones en contenedores. Su mayor ventaja es que puede distribuir la carga de trabajo, reiniciar aplicaciones que fallan y escalar servicios automáticamente. Lo interesante es que funciona igual en la nube, en servidores locales o en entornos híbridos, lo que lo convierte en un estándar.
+
+3. Microservicios:\\
+La arquitectura de microservicios propone dividir una aplicación en componentes pequeños e independientes que se comunican entre sí mediante APIs. Este enfoque rompe con el modelo monolítico y aporta mayor flexibilidad: cada módulo puede actualizarse, escalarse o corregirse sin afectar al resto\\
+
+4. OAuth 2.0:\\
+OAuth 2.0 es un protocolo de autorización que permite a las aplicaciones acceder a recursos protegidos sin necesidad de exponer contraseñas. En lugar de compartir credenciales, se utilizan tokens de acceso que caducan y pueden renovarse de manera segura.\\
+
+5. Implementación de Servicios en la Nube (12-Factor Application):\\
+El modelo 12-Factor Application establece principios que ayudan a diseñar aplicaciones modernas y preparadas para la nube. Entre ellos destacan: mantener un único repositorio de código, declarar dependencias explícitas, separar la configuración del entorno, usar procesos sin estado y escalar horizontalmente. Estos factores garantizan que las aplicaciones sean portables, resilientes y fáciles de desplegar en plataformas como AWS, Azure o Google Cloud. En conjunto, esta metodología facilita la adopción de prácticas DevOps y la construcción de sistemas ágiles,\\
+
+\noindent\textbf{Observaciones y Comentario}\\
+En conjunto, estos elementos forman un ecosistema tecnológico robusto que impulsa a las organizaciones hacia la transformación digital, asegurando operaciones más seguras, escalables y alineadas con las necesidades actuales del mercado.
+\\
+
+Aunque cada concepto analizado tiene su propio enfoque, todos se complementan en la práctica. La orquestación de servidores y Kubernetes trabajan de la mano para automatizar y escalar aplicaciones. Los microservicios se apoyan en estos entornos para brindar flexibilidad y modularidad. OAuth 2.0 se integra como mecanismo de seguridad indispensable en la comunicación entre servicios, mientras que el modelo 12-Factor proporciona una guía clara para construir aplicaciones listas para la nube\\
+
+\textbf{Conclusión}\\
+Este trabajo reúne cinco temas clave que hoy en día marcan el rumbo de la informática moderna: la orquestación de servidores, Kubernetes, los microservicios, OAuth 2.0 y la implementación de aplicaciones en la nube con el modelo 12-Factor Application. Todos ellos se conectan de alguna manera y nos muestran cómo la tecnología está evolucionando para responder a un mundo cada vez más digital, móvil y exigente.\\
+
+En conjunto, estos conceptos demuestran que el futuro de la informática está en la nube y en la automatización. La orquestación y Kubernetes simplifican la gestión de entornos cada vez más complejos. Los microservicios aportan flexibilidad y escalabilidad, mientras que OAuth 2.0 se convierte en la base para asegurar la comunicación entre sistemas distribuidos. El modelo 12-Factor, por su parte, ofrece un marco sencillo pero poderoso para que las aplicaciones estén listas para crecer sin perder estabilidad.\\
+
+En pocas palabras: cuando se combinan, estos elementos permiten que las organizaciones innoven, protejan su información y se adapten rápidamente a los cambios que exige el mundo digital actual.\\
+
+\textbf{bibliografia}\\
+
+Cloud Native Computing Foundation. (2023).https://kubernetes.io/docs/\\
+
+Fowler, M., & Lewis, J. (2014). Microservices:https://martinfowler.com/articles/microservices.html\\
+
+The OAuth 2.0 authorization framework (RFC 6749). Internet Engineering Task Force (IETF). https://datatracker.ietf.org/doc/html/rfc6749\\
+
+Newman, S. (2021). Building microservices Red Hat. (2022). Red Hat \\ https://www.redhat.com/en/topics/automation/what-is-orchestration.\\
+
+Wiggins, A. (2011). The Twelve-Factor App. Heroku. https://12factor.net/
+
+\end{document}
